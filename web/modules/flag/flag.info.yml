@@ -1,0 +1,5 @@
+name: 'flag'
+type: module
+description: 'Displaying map with every important details.'
+package: Custom
+core_version_requirement: ^10

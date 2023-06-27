@@ -1,0 +1,7 @@
+flag.example:
+  path: '/map'
+  defaults:
+    _title: 'Example'
+    _controller: '\Drupal\flag\Controller\FlagController'
+  requirements:
+    _permission: 'access content'

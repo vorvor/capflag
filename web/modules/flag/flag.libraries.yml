@@ -1,0 +1,11 @@
+google_map:
+  js:
+    https://maps.googleapis.com/maps/api/js?key=AIzaSyAJC8qBk6Q_khSlpv1ZegYxaaGV3TZ7J-o&libraries=geometry&callback=initMap: { type: external, minified: true }
+    src/js/map.js: {}
+
+mymap:
+  js:
+    src/js/map.js: {}
+  css:
+    theme:
+      src/css/map.css: {}

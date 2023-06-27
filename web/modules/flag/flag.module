@@ -1,0 +1,22 @@
+<?php
+
+/**
+ * @file
+ * Primary module hooks for flag module.
+ */
+function flag_theme($existing, $type, $theme, $path) {
+
+  return [      
+    'map' => [
+      'render element' => 'children',
+      'template' => 'map',
+      'path' => $path . '/templates',
+      'variables' => [
+        'advice_marci' => null,
+        'advice_autougyved' => null,
+        'advice_kreszprofesszor' => null,
+        'advices' => null,
+      ],
+    ],
+  ];
+}
